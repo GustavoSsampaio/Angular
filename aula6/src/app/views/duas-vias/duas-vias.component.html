@@ -1,0 +1,23 @@
+<h1>Binding Duas-vias!</h1>
+<br>
+<input type="text" [(ngModel)]="nome">
+
+{{nome}}
+
+<button (click)="mudarNome()">Mudar Nome</button>
+
+<!-- anotação binding duasvias bananaInBox [(ngModel)]
+
+  FormsModule no imports(app.modules.ts)para ativar o bananaBox
+
+-->
+<hr>
+  <h1>Exercicio 1</h1>
+  <br>
+  <input type="number" [(ngModel)]="valor1">
+  <br>
+  <input type="number" [(ngModel)]="valor2">
+  <br>
+  <p>{{valor1 + valor2}}</p>
+
+
